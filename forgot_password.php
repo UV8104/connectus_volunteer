@@ -49,8 +49,8 @@ if (isset($_POST['submit'])) {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'vijayutnoori81@gmail.com';           // your Gmail
-            $mail->Password   = 'ezqm woon vbki xgxy';     // Gmail App Password
+            $mail->Username   = 'your working email';           // your Gmail
+            $mail->Password   = 'your app password';     // Gmail App Password
             $mail->SMTPSecure = 'tls';                            // use TLS
             $mail->Port       = 587;
 
@@ -143,3 +143,4 @@ if (isset($_POST['submit'])) {
     </div>
 </body>
 </html>
+
