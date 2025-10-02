@@ -49,7 +49,7 @@ if ($result && $result->num_rows > 0) {
                 $mail->Port       = 587;
 
                 // Sender & recipient
-                $mail->setFrom('vijayutnoori81@gmail.com', 'Event Reminder');
+                $mail->setFrom('your working email', 'Event Reminder');
                 $mail->addAddress($row['email']);
 
                 // Email content
@@ -75,4 +75,5 @@ if ($result && $result->num_rows > 0) {
 
 $conn->close();
 ?>
+
 
