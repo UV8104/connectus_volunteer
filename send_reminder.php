@@ -43,8 +43,8 @@ if ($result && $result->num_rows > 0) {
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'vijayutnoori81@gmail.com';           // your Gmail
-                $mail->Password   = 'ouon vtlq wyhp xtaw';    // App Password
+                $mail->Username   = 'your working email';           // your Gmail
+                $mail->Password   = 'your app password';    // App Password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port       = 587;
 
@@ -75,3 +75,4 @@ if ($result && $result->num_rows > 0) {
 
 $conn->close();
 ?>
+
